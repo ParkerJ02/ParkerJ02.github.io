@@ -1,0 +1,74 @@
+#countDownTimer {
+    font-weight: bold;
+    font-size: xx-large;
+    color: red;
+}
+
+body {
+    background: linear-gradient(90deg, white, #2eacd4);
+    color: darkmagenta;
+}
+
+#loginTitleStyle {
+    color: teal;
+}
+
+.blinking {
+    animation: opacity 4s ease-in-out infinite;
+    opacity: 1;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.button {
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    border-radius: 12px;
+    border-color: lightblue;
+}
+
+.lgButton {
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    border-radius: 12px;
+    border-color: lightblue;
+}
+
+#objTitle {
+    font-size: x-large;
+}
+
+header{
+    text-align: center;
+    width: 100%;
+    color: red;
+}
+
+footer{
+    text-align: center;
+    color: darkgreen;
+    width: 100%;
+    height: 10%;
+}
+
+nav{
+    line-height: 30px;
+    height: 385px;
+    width: 150px;
+    padding: 5px;
+    float: left;
+}
